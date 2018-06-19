@@ -10,11 +10,6 @@
 
 ## [Demo](https://meiyungzs.github.io/vueall/dist/index.html)
 
-<!-- ## Example
-
-![example](https://raw.githubusercontent.com/SirM2z/assets/master/image/Introduction.gif) -->
-
-##
 
 ## Build Setup
 
