@@ -2,17 +2,17 @@
 
 > A Vue.js2.x test project
 >
-> 包括vue2.x,vue-router,vuex,axios,element-ui
+> 包括vue2.x,vue-router,vuex,axios,element-ui，组件之间的通讯，登陆状态的判断
 >
 > vue-router 使用了懒加载、嵌套路由
 >
 > element-ui 采用按需加载，避免最终打包过大
 
-## [Demo](http://sirm2z.github.io/vue2.0test/index.html)
+## [Demo](https://meiyungzs.github.io/vueall/dist/index.html)
 
-## Example
+<!-- ## Example
 
-![example](https://raw.githubusercontent.com/SirM2z/assets/master/image/Introduction.gif)
+![example](https://raw.githubusercontent.com/SirM2z/assets/master/image/Introduction.gif) -->
 
 ##
 
