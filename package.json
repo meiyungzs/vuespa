@@ -12,6 +12,7 @@
   "dependencies": {
     "animate.css": "^3.5.2",
     "axios": "^0.17.1",
+    "clean-webpack-plugin": "^0.1.19",
     "element-ui": "^2.0.4",
     "es6-promise": "^4.1.1",
     "less": "^3.0.4",
