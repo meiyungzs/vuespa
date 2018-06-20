@@ -57,7 +57,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: './',//github使用
+    assetsPublicPath: '/',//github使用
     // assetsPublicPath: '/',//默认是这个
     // assetsPublicPath: '/woqu/',//添加二级目录
 
