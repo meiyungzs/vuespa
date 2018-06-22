@@ -14,6 +14,7 @@ Vue.use(Router)
 
 export default new Router({
   mode: 'history',
+  base: '/vuesub/dist/',
   scrollBehavior: () => ({ y: 0 }),
   routes: [{
     path: '/hello',
