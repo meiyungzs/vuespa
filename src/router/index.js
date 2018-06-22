@@ -13,8 +13,9 @@ const params = resolve => require(['@/pages/test/params'], resolve)
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
-  base: '/vuesub/dist/',
+  mode: 'hash',
+  // mode: 'history',
+  // base: '/dist/',
   scrollBehavior: () => ({ y: 0 }),
   routes: [{
     path: '/hello',
