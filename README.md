@@ -8,7 +8,7 @@
 >
 > element-ui 采用按需加载，避免最终打包过大
 
-## [Demo](https://meiyungzs.github.io/vuesub/dist/index.html)
+## [Demo](https://meiyungzs.github.io/vuespa/dist/index.html)
 
 
 ##
