@@ -17,6 +17,8 @@ module.exports = {
     port: 8080, // can be overwritten by process.env.HOST, if port is in use, a free one will be determined
     autoOpenBrowser: true,
     httpUrl: 'https://api.github.com',
+    // httpUrl: 'https://192.168.1.59',//这个是会忽略localhost
+    // httpUrl: '192.168.1.59',
     errorOverlay: true,
     notifyOnErrors: true,
     poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
