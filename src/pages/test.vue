@@ -124,7 +124,8 @@ export default {
       // this.showModal();
     },
     isLogin: function(argument) {
-      console.log("监听islogin==")
+      console.log(this.msg)
+      console.log("监听islogin=="+ this.isLogin)
     }
   }
 }
