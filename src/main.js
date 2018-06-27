@@ -61,5 +61,13 @@ new Vue({
   router,
   // template: '<App/>',
   // components: { App }
-  render: h => h(App)
+  render: h => h(App),
+  created() {
+    console.log(localStorage.getItem("islogin"))
+    if ((localStorage.getItem("islogin") === null)) {
+      console.log("首次进入页面设置，设置登入状态为空")
+      localStorage.setItem("islogin", '')
+    }
+    this.$store.state.login.islogin = localStorage.getItem("islogin")
+  }
 })

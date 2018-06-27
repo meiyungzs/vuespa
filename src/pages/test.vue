@@ -16,6 +16,10 @@
     <a @click="loginOut" style="cursor: pointer;">Click this to test loginOut</a>
     <h2>--------测试修改state--------</h2>
     <a @click="changeState" style="cursor: pointer;">Click this to test changeState</a>
+    <h2>--------测试修改commit--------</h2>
+    <a @click="setLogin" style="cursor: pointer;">Click this to test setLogin</a>    
+    <h2>--------测试s删除本地信息clearLocalStorage--------</h2>
+    <a @click="clearLocalStorage" style="cursor: pointer;">Click this to test clearLocalStorage</a>    
     <h2>--------测试Axios获取github数据，打开控制台看效果哦--------</h2>
     <a @click="searchGithub" style="cursor: pointer;">Click this to test Axios</a>
     <h2>--------测试 Modal组件（用到vuex控制状态）--------</h2>
@@ -116,7 +120,15 @@ export default {
     },
     changeState({ commit }) {
       this.$store.state.login.islogin = !this.$store.state.login.islogin;
-    }
+    },
+    setLogin() {
+      // this.$store.commit('login/setLogin',false);
+      this.$store.commit('login/setLogin',{id:123,params:2000});
+    },
+    clearLocalStorage() {
+      localStorage.clear()
+    },
+
   },
   watch: {
     "$store.state.login.islogin": function(argument) {
